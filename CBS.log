@@ -5,6 +5,7 @@
 2025-04-19 14:30:29, Info                  CBS    Lock: New lock added: CCbsPublicSessionClassFactory, level: 30, total lock:5
 2025-04-19 14:30:29, Info                  CBS    Lock: New lock added: WinlogonNotifyLock, level: 8, total lock:6
 2025-04-19 14:30:29, Info                  CBS    Ending TrustedInstaller initialization.
+2025-04-19 14:30:29, ERROR                 CBS    Ending TrustedInstaller initialization.
 2025-04-19 14:30:29, Info                  CBS    Starting the TrustedInstaller main loop.
 2025-04-19 14:30:29, Info                  CBS    TrustedInstaller service starts successfully.
 2025-04-19 14:30:29, Info                  CBS    No startup processing required, TrustedInstaller service was not set as autostart
@@ -135,6 +136,7 @@
 2025-04-19 14:30:29, Info                  CBS    External EvaluateApplicability - Current state, package: Wrapper-058DEA5F431EA7C58E8CA8A496CA6EB78A863AB55E77E6FD3A8FF30D855D7106~31bf3856ad364e35~amd64~~10.0.26100.2150, package current state: Absent, lowest rollup current state: Absent, resulting current state: Absent
 2025-04-19 14:30:29, Info                  CBS    Appl: detect Parent, Package: Wrapper-14625ADD9F72CB1E9A1BF33CA5636580A84760F2FF37E5444FF59AB9112ED265~31bf3856ad364e35~amd64~~10.0.26100.2150, Parent: Microsoft-Windows-EnterpriseSNEdition~31bf3856ad364e35~amd64~~10.0.26100.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
 2025-04-19 14:30:29, Info                  CBS    Appl: detectParent: no parent found, go absent
+2025-04-19 14:30:29, ERROR                 CBS    2Ending TrustedInstaller initialization.
 2025-04-19 14:30:29, Info                  CBS    Appl: Evaluating package applicability for package Wrapper-14625ADD9F72CB1E9A1BF33CA5636580A84760F2FF37E5444FF59AB9112ED265~31bf3856ad364e35~amd64~~10.0.26100.2150, applicable state: Absent
 2025-04-19 14:30:29, Info                  CBS    External EvaluateApplicability - Current state, package: Wrapper-14625ADD9F72CB1E9A1BF33CA5636580A84760F2FF37E5444FF59AB9112ED265~31bf3856ad364e35~amd64~~10.0.26100.2150, package current state: Absent, lowest rollup current state: Absent, resulting current state: Absent
 2025-04-19 14:30:29, Info                  CBS    Appl: detect Parent, Package: Wrapper-34D6D69CA494B1A7A30C49B2BACEEAE203223301F649A2E8379C211394992F0B~31bf3856ad364e35~amd64~~10.0.26100.2150, Parent: Microsoft-Windows-EnterpriseEvalEdition~31bf3856ad364e35~amd64~~10.0.26100.1, Disposition = Detect, VersionComp: EQ, BuildComp: EQ, RevisionComp: GE, Exist: present
@@ -269,6 +271,7 @@
 2025-04-19 22:30:46, Info                  SXS    Initialized store, arch=amd64, style=Desktop, compact=false, windir=(null), sandbox=
 2025-04-19 22:30:46, Info                  CBS    Session: 31175068_950333198 initialized by client WindowsUpdateAgent
 2025-04-19 22:30:46, Info                  CSI    0000000a Perf: LRU Cache Clear @0x1e047b9d260
+2025-04-19 14:30:29, ERROR                 CBS    3Ending TrustedInstaller initialization.
 2025-04-19 22:30:46, Info                  CBS    WU creates the package, AppID:MoUpdateOrchestrator, UpdateID:{2D1C67EF-0367-4276-8F5D-D7FCC5D90970}, revision: 201
 2025-04-19 22:30:46, Info                  CBS    Read out cached applicability from TiLight for package: Package_for_KB5050575~31bf3856ad364e35~amd64~~26100.1588.1.0, ApplicableState: 112, CurrentState:0
 2025-04-19 22:30:46, Info                  CBS    WU creates the package, AppID:MoUpdateOrchestrator, UpdateID:{BF870A5B-5837-4813-9F6B-E8368082A679}, revision: 200
@@ -360,6 +363,7 @@
 2025-04-20 02:05:48, Info                  CSI    00000003 Perf: LRU Cache Initialize @0x145c67fbfb0; Maximum Size: 1024 MiB; Initial Elements: 8192
 2025-04-20 02:05:48, Info                  SXS    Initialized store, arch=amd64, style=Desktop, compact=false, windir=(null), sandbox=
 2025-04-20 02:05:48, Info                  CBS    Session: 31175098_1122999139 initialized by client WinMgmt
+2025-04-19 14:30:29, ERROR                 CBS    4Ending TrustedInstaller initialization.
 2025-04-20 02:05:48, Info                  CBS    Enumerating Foundation package: Microsoft-Windows-Foundation-Package~31bf3856ad364e35~amd64~~10.0.26100.1, this could be slow
 2025-04-20 02:05:48, Info                  CBS    Appl:Feature On Demand package without explicit comparator, using GE on build version
 2025-04-20 02:05:48, Info                  CBS    Appl:Feature On Demand package without explicit comparator, using GE on build version
@@ -512,6 +516,7 @@
 2025-04-20 02:05:48, Info                  CBS    Appl: DetectUpdate, Package: Microsoft-Windows-IIS-WebServer-AddOn-Package~31bf3856ad364e35~amd64~~10.0.26100.1882, Remote Parent: IIS-WebServerRole, Intended State: Staged
 2025-04-20 02:05:48, Info                  CBS    Appl: Package: Microsoft-Windows-IIS-WebServer-AddOn-Package~31bf3856ad364e35~amd64~~10.0.26100.1882, Update: IIS-FTPServer, Applicable: NeedsParent, Disposition: Staged
 2025-04-20 02:05:49, Info                  CSI    00000017 Perf: LRU Cache Clear @0x145c67fc550
+2025-04-19 14:30:29, ERROR                 CBS    5Ending TrustedInstaller initialization.
 2025-04-20 02:05:49, Info                  CBS    Module starts contributing to an existing logging session
 2025-04-20 02:05:49, Info                  SXS    TurboStack version 10.0.26100.3764 (WinBuild.160101.0800) loaded from C:\WINDOWS\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.26100.3764_none_a5067b2d776484b6
 2025-04-20 02:05:49, Info                  CSI    00000018@2025/4/20:06:05:49.025 WcpInitialize: wcp.dll version 10.0.26100.3764 (WinBuild.160101.0800)
@@ -588,6 +593,7 @@
 2025-04-20 02:07:50, Info                  CBS    Outstanding sessions complete
 2025-04-20 02:07:50, Info                  CBS    CbsCoreFinalize: ExecutionEngineFinalize
 2025-04-20 02:07:50, Info                  CBS    Execution Engine Finalize
+2025-04-19 14:30:29, ERROR                 CBS    6Ending TrustedInstaller initialization.
 2025-04-20 02:07:50, Info                  CBS    Execution Engine Finalize
 2025-04-20 02:07:50, Info                  CBS    Execution Engine Finalize
 2025-04-20 02:07:50, Info                  CBS    Execution Engine Finalize
